@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         // GANTI ini ke domain hasil deploy Netlify lu (pakai https, tanpa trailing slash)
-        const val BASE_URL = "xbsfy.netlify.app"
+        const val BASE_URL = "https://xbsfy.netlify.app"
     }
 
     private lateinit var webView: WebView
